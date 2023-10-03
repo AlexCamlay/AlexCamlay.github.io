@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "img": "Margarita.jpeg",
+    "name": "Margarita",
+    "description": "Un cocktail à base de tequila, de jus de citron vert et de triple sec.",
+    "ingredients": [
+      "50 ml de tequila",
+      "25 ml de jus de citron vert frais",
+      "25 ml de triple sec",
+      "glaçons",
+      "sel pour le bord du verre (facultatif)"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Daiquiri.jpeg",
+    "name": "Daiquiri",
+    "description": "Un cocktail à base de rhum, de jus de citron vert et de sucre.",
+    "ingredients": [
+      "60 ml de rhum blanc",
+      "30 ml de jus de citron vert frais",
+      "15 ml de sirop de sucre de canne",
+      "glaçons"
+    ]
+  }
+]

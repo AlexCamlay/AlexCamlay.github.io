@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="cocktails.css" />
+	<link rel="stylesheet" href="animate.css" />
+</head>
+<body>
+  <script src="scriptTest.js"></script>
+	<header>
+		<img src="resources/img/MainLogo.png" style="margin-left: 10px"/>
+		<nav>
+			<a href="home.html" class="navigation-item">Home</a>
+			<a href="cocktails.html" class="navigation-item">Cocktails</a>
+			<a href="recipes.html" class="navigation-item">Recipes</a>
+			<a href="orders.html" class="navigation-item">Commandes</a>
+		</nav>
+	</header>
+	<main>
+		<div class="container">
+			<div class="row">
+				<div class="search-container">
+					<input type="text" placeholder="Search Cocktail" class="search-input">
+						<button class="custom-button">Rechercher</button> 
+				</div>
+				<ul class="cocktail-cards">
+					<li class="cocktail-card">
+						<div class="cocktail-image-container">
+							<img src="resources/img/cocktails/red.jpg" alt="Cocktail 1 Image" class="cocktail-image">
+						</div>
+						<h2 class="cocktail-title">Test 1</h2>
+						<div class="cocktail-recipe__ingredients">
+							<ul>
+								<li>Ingredient 1</li>
+								<li>Ingredient 2</li>
+								<li>Ingredient 3</li>
+								<li>Ingredient 4</li>
+							</ul>
+						</div>
+						<div class="cocktail-recipe__description">
+							<p>Exemple description</p>
+						</div>
+						<button class="custom-button" data-cocktail-id="Cocktail_1">Commander</button> 
+					</li>
+					<!-- List of cocktails here -->
+				</ul>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p></p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="animate.css" />
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <script src="commands.js"></script>
+        <header>
+			<img src="resources/img/MainLogo.png" style="margin-left: 10px"/>
+			<nav>
+				<a href="home.html" class="navigation-item">Home</a>
+				<a href="cocktails.html" class="navigation-item">Cocktails</a>
+				<a href="recipes.html" class="navigation-item">Recipes</a>
+			</nav>
+        </header>
+        <main>
+				<div class="hero-section">
+			
+            <form id="search-form" style="width: 23%;">
+                <input type="text" placeholder="Rechercer une recette ou un ingrédient">
+                <button id="searchRecipeButton" class="customButtons" type="submit"><i class="fas fa-search"></i>Rechercher</button>
+            </form>
+            <div id="cocktails-section">
+                <div id="cocktails-list">
+
+                    <section id="recipes">
+
+                        <div id="recipes-list">
+                            <ul>
+                                <li><a href="#raspberry-fizz">Raspberry Fizz <img src="resources/img/raspberry-fizz.png" alt="Raspberry Fizz recipe" style="max-width:50px"></a></li>
+                                <li><a href="#passion-caipirinha">Passion Caipirinha</a></li>
+                                <li><a href="#kiwi-caipirinha">Kiwi Caipirinha</a></li>
+                                <li><a href="#passionfruit-mojito">Passion Mojito</a></li>
+                                <li><a href="#kiwi-mojito">Kiwi Mojito</a></li>
+                                <li><a href="#chartreuse-swizzle">Chartreuse Swizzle</a></li>
+                                <li><a href="#kiwi-daiquiri">Kiwi Daiquiri</a></li>
+                                <li><a href="#kiwi-sage-sour">Kiwi Sage Sour</a></li>
+                                <li><a href="#last-word-variation-grenadine">The Last Word</a></li>
+                                <li><a href="#spiced-rum-sour">Spiced Rum Sour</a></li>
+                                <li><a href="#spiced-rum-sour-piment">Spiced Rum Sour Piment</a></li>
+                                <li><a href="#vermouth-sour">Vermouth Sour</a></li>
+                                <li><a href="#amaretto-peach-fizz">Amaretto Peach Fizz</a></li>
+                                <li><a href="#amaretto-old-fashioned">Amaretto Old Fashioned</a></li>
+                                <li><a href="#exotic-escape">Exotic Escape</a></li>
+                                <li><a href="#zombie-brain">Zombie Brain</a></li>
+                                <li><a href="#medusa-shooter">Medusa</a></li>
+                                <li><a href="#superman-shooter">Superman</a></li>
+                                <li><a href="#electric-lemonade">Electric Lemonade</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+                <div id="selected-recipe">
+
+                    <section id="recipes-list" class="selected-recipe-section">
+                        <section class="cocktail-recipe" id="electric-lemonade">
+                            <h2 class="title cocktail-recipe__title">Electric Lemonade</h2>
+                            <div class="cocktail-recipe__ingredients">
+                                <h3>Ingrédients</h3>
+                                <ul>
+                                    <li>30ml de Vodka</li>
+                                    <li>15ml de sirop de sucre</li>
+                                    <li>30ml de jus de citron vert</li>
+                                    <li>5ml de Cointreau</li>
+                                    <li>5ml de jus de pamplemousse</li>
+                                    <li>1 trait de Tabasco</li>
+                                </ul>
+                            </div>
+                            <div class="cocktail-recipe__instructions">
+                                <h3>Instructions</h3>
+                                <ol>
+                                    <li>Dans un shaker, mélangez la vodka, le sirop de sucre, le jus de citron vert, le Cointreau et le jus de pamplemousse.</li>
+                                    <li>Ajoutez des glaçons et secouez vigoureusement pendant 15 secondes.</li>
+                                    <li>Ajoutez un trait de Tabasco et secouez encore.</li>
+                                    <li>Versez le mélange dans un shooter.</li>
+                                    <li>Servez immédiatement.</li>
+                                </ol>
+                            </div>
+                            <div class="cocktail-recipe__order-buttons">
+                                <button class="btn btn-order customButtons" data-cocktail-id="electric-lemonade">Commander</button> 
+                                <span class="cocktail-recipe__order-counter" id="counter-electric-lemonade">0</span>
+                                <button class="btn btn-served customButtons" data-cocktail-id="electric-lemonade">Servi</button>
+                                <span class="cocktail-recipe__order-count" data-cocktail-id="electric-lemonade"></span>
+                            </div>
+                        </section>
+                        <section class="cocktail-recipe" id="raspberry-fizz">
+                            <h2 class="title cocktail-recipe__title">Raspberry Fizz</h2>
+                            <div class="cocktail-recipe__ingredients">
+                                <h3>Ingrédients</h3>
+                                <ul>
+                                    <li>30ml de liqueur de framboise</li>
+                                    <li>30ml de gin</li>
+                                    <li>15ml de jus de lime frais</li>
+                                    <li>15ml de sirop de sucre</li>
+                                    <li>eau gazeuse</li>
+                                    <li>framboises (décoration)</li>
+                                </ul>
+                            </div>
+                            <div class="cocktail-recipe__instructions">
+                                <h3>Instructions</h3>
+                                <ol>
+                                    <li>Dans un shaker, mélangez la liqueur de framboise, le gin, le jus de lime et le sirop de sucre.</li>
+                                    <li>Ajoutez des glaçons et secouez vigoureusement pendant 15 secondes.</li>
+                                    <li>Versez le mélange dans un verre à highball préalablement givré.</li>
+                                    <li>Complétez avec de l'eau gazeuse.</li>
+                                    <li>Garnir de framboises fraîches.</li>
+                                </ol>
+                            </div>
+                            <div class="cocktail-recipe__order-buttons">
+                                <button class="btn btn-order customButtons" data-cocktail-id="raspberry-fizz">Commander</button> 
+                                <span class="cocktail-recipe__order-counter" id="counter-raspberry-fizz">0</span>
+                                <button class="btn btn-served customButtons" data-cocktail-id="raspberry-fizz">Servi</button>
+                                <span class="cocktail-recipe__order-count" data-cocktail-id="raspberry-fizz"></span>
+                            </div>
+                        </section>
+                        <section class="cocktail-recipe" id="spiced-rum-sour-piment">
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        </main>
+		<footer>
+            <p></p>
+        </footer>
+    </body>
+</html>
